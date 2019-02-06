@@ -1,0 +1,96 @@
+.page{
+            width :780px;
+            margin: auto;
+	        font-size:16px;
+            font-family: arial;
+            padding: 40px;
+            border:5px;
+            border-radius:10px;
+            box-shadow:2px 4px 3px;
+            background-color:#FFFFFF;
+         }
+        .infoperso{
+        	height:250px;
+        }
+        .info{
+	        float:left;
+
+        }
+        .photo{
+        	float:right;
+        }
+
+        .section{
+        	margin-bottom : 70px;
+        	height:3em;
+        }
+
+        .section-gauche{
+	        float : left;
+        }
+
+        .section-droite{
+        	margin-left: 150px;
+        }
+
+        strong{
+        	font-size:26px;
+        }
+        .section{
+	        margin-bottom : 90px;
+	        text-align:justify;
+        }
+        .section:hover{
+	        color:gray;
+        }
+        h2{
+	        font-size:16px;
+	        color: #3388BB;
+        	text-transform: uppercase;
+	        border-bottom:3px solid #3388DD;
+        }
+        .section-gauche{
+        	float:left;
+        	font-weight:bold;
+	        font-size:16px;
+        }
+        #forma-gauche p{
+        	margin-bottom: 20px;
+        }
+        #forma-droite p{
+        	margin-top:20px;
+        	margin-bottom: 40px;
+        	
+        }
+        .duree{
+        	font-weight:normal;
+        	font-style:italic;
+	        font-size:16px
+        }
+        .section-droite{
+        	margin-left:150px;
+	        margin-top:30px;
+	        font-size:16px;
+        }
+        #exp-gauche p{
+        	margin-top: 3px;
+        	margin-bottom: 40px;
+        }
+        .universite{
+        	font-weight:bold;
+	        font-size:20px;
+        }
+        .poste{
+        	font-weight:bold;
+	        font-size:20px;
+        }
+		h2 {
+		cursor:pointer;
+		}
+		.mdl-slider__container {
+        background-color: white !important; 
+        position: fixed !important; 
+        top: 0; 
+        z-index: 200; 
+        width: 100vw; 
+}

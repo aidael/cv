@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script 
+         src = "https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js">
+      </script>
+      <link rel = "stylesheet" 
+         href = "https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+      <link rel = "stylesheet" 
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script type = "text/javascript" src ="cv.js" ></script>
+		<link rel="stylesheet" type="text/css" href="cv.css">
+	</head>
+	<body onscroll="moveProgressBar()">
+	<input id="progress_bar" class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="0" tabindex="0" oninput="moveScroll()">
+		<div class="page"id="myDIV">
+			<div class="infoperso">
+				<div class="info">
+				    <h1>Aida EL HAOUAT</h1>
+	                <p3>29 rue marguerite</br>69100 villeurbanne</br>aida.elhaouat@gmail.com </br>0659608817</br>23 ans </br>permis B</br></p3>
+				</div>
+				<div class=photo>
+				    <img src="photo-cv.png" alt="photo aida">
+				</div>
+			</div>
+			<h2 onclick="toggleMe(section1)"> Compétences </h2>
+			<div class="section" id="section1">
+				<div class="section-gauche" id="forma-gauche">
+				    <p>Programmation </p>
+				    <p>Logiciels </p>
+				    <p>Reseaux </p>
+				</div>
+				<div class="section-droite">
+				    <p>Java, C, shell </p>
+				    <p>VMD, Matlab, gaussien,molden, labview</p>
+				    <p> ethernet, wifi, adressage, SSH, chiffrement, routage</p>
+				</div>
+			</div>
+		    <h2 onclick="toggleMe(section2)"> Formations </h2>
+			<div class="section" id="section2">
+				<div class="section-gauche" id="exp-gauche">
+				    <p>2018/2019</p>
+				    <p>2017/2018 </p>
+				</div>
+				<div class="section-droite">
+				    <p><span class ="universite">université Lyon 1 </span> </br>master compétence complémentaire en informatique</p>
+				    <p><span class ="universite">université litorale cote d'opale </span></br>master analyse chimique, controle insdustriel et environnement</p>
+				</div>
+			</div>
+			 <h2 onclick="toggleMe(section3)"> Expériences </h2>
+			<div class="section" id="section3">
+				<div class="section-gauche" id="forma-gauche">
+				    <p>2017/2018 </br><span class ="duree"> 6 mois</span></p>
+				    <p>2016/2017 </br><span class ="duree"> 4 mois</span></p>
+				</div>
+				<div class="section-droite" >
+				    <p> <span class ="Poste">Assistante ingénieur à L'Institut national de l'environnement industriel et des risques  </span> </br>(INERIS)</p>
+				    <p> <span class ="Poste">Laboratoire Interuniversitaire des Systèmes Atmosphériques </span> </br>(LISA)</p>
+				</div>
+			</div>
+			<h2 onclick="toggleMe(section4)"> Centres d'intérets </h2>
+			<div class="section" id="section4">
+				<div class="section-gauche" id="forma-gauche">
+					<p>Jeu De </br>Reflexions</p>
+					<p>Activité</br> Collective</p>
+				</div>
+				<div class="section-droite" id="exp-gauche">
+				    <p>Sodoku, Puzzle</p>
+				    <p>Participation à l'organisation de la journée premier emploi à l'utiversité littoral cote d'opale</p>
+				</div>
+			</div>
+			 <h2 onclick="toggleMe(section5)"> Langues </h2>
+			<div class="section" id="section5">
+				<div class="section-gauche" id="forma-gauche">
+				    <p>Anglais <p>
+                    <p>Francais <p>
+					<p>Arabe <p>	
+				</div>
+				<div class="section-droite">
+				    <p>Niveau bilingue</p>
+				    <p>Niveau intermédiare</p>
+				    <p>Niveau bilingue <p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
